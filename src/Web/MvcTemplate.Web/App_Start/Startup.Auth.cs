@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     using System;
 
@@ -7,8 +7,8 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security.Cookies;
 
-    using MvcTemplate.Data;
-    using MvcTemplate.Data.Models;
+    using NurseCallMvc.Data;
+    using NurseCallMvc.Data.Models;
 
     using Owin;
 

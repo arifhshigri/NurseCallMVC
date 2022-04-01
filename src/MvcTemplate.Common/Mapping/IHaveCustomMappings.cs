@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Common.Mapping
+namespace NurseCallMvc.Common.Mapping
 {
     using AutoMapper;
 

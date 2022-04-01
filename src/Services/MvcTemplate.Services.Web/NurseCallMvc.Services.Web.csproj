@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6813DC53-5EEE-4507-8604-5301EE51A0D3}</ProjectGuid>
+    <ProjectGuid>{AC1BAD6A-2407-4A3E-AD7D-4CF05BB8EF58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcTemplate.Web.Infrastructure</RootNamespace>
-    <AssemblyName>MvcTemplate.Web.Infrastructure</AssemblyName>
+    <RootNamespace>NurseCallMvc.Services.Web</RootNamespace>
+    <AssemblyName>NurseCallMvc.Services.Web</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HttpCacheService.cs" />
+    <Compile Include="ICacheService.cs" />
+    <Compile Include="IdentifierProvider.cs" />
+    <Compile Include="IIdentifierProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

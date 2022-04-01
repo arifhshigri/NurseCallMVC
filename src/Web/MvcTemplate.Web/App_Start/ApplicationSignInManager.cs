@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     using System.Security.Claims;
     using System.Threading.Tasks;
@@ -7,7 +7,7 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security;
 
-    using MvcTemplate.Data.Models;
+    using NurseCallMvc.Data.Models;
 
     public class ApplicationSignInManager : SignInManager<ApplicationUser, string>
     {

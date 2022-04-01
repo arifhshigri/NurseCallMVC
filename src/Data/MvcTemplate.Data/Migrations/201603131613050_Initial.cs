@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Data.Migrations
+namespace NurseCallMvc.Data.Migrations
 {
     using System.Data.Entity.Migrations;
 

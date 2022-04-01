@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web.Controllers
+namespace NurseCallMvc.Web.Controllers
 {
     using System.Linq;
     using System.Threading.Tasks;
@@ -9,8 +9,8 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
 
-    using MvcTemplate.Data.Models;
-    using MvcTemplate.Web.ViewModels.Account;
+    using NurseCallMvc.Data.Models;
+    using NurseCallMvc.Web.ViewModels.Account;
 
     [Authorize]
     public class AccountController : BaseController

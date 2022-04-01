@@ -1,6 +1,6 @@
 version: 1.0.{build}
 before_build:
-- cmd: nuget restore "ASP.NET MVC 5/MvcTemplate.sln"
+- cmd: nuget restore "ASP.NET MVC 5/NurseCallMvc.sln"
 build:
-  project: ASP.NET MVC 5/MvcTemplate.sln
+  project: ASP.NET MVC 5/NurseCallMvc.sln
   verbosity: minimal

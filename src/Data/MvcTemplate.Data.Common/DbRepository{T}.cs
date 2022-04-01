@@ -1,10 +1,10 @@
-﻿namespace MvcTemplate.Data.Common
+namespace NurseCallMvc.Data.Common
 {
     using System;
     using System.Data.Entity;
     using System.Linq;
 
-    using MvcTemplate.Data.Common.Models;
+    using NurseCallMvc.Data.Common.Models;
 
     public class DbRepository<T> : IDbRepository<T>
         where T : class, IAuditInfo, IDeletableEntity

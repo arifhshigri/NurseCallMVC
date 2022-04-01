@@ -1,13 +1,12 @@
-﻿namespace MvcTemplate.Services.Data.Common
+namespace NurseCallMvc.Services.Data.Common
 {
     using System;
     using System.Linq;
-
-    using MvcTemplate.Common;
-    using MvcTemplate.Data.Common;
-    using MvcTemplate.Data.Common.Models;
-    using MvcTemplate.Data.Models;
-    using MvcTemplate.Services.Data.Common.Contracts;
+    using NurseCallMvc.Common;
+    using NurseCallMvc.Data.Common;
+    using NurseCallMvc.Data.Common.Models;
+    using NurseCallMvc.Data.Models;
+    using NurseCallMvc.Services.Data.Common.Contracts;
 
     public class BaseDataWithCreatorService<T> : BaseDataService<T>, IBaseDataWithCreatorService<T>
         where T : class, IDeletableEntity, IAuditInfo, IEntityWithCreator

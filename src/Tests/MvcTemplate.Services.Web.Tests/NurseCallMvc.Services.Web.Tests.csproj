@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0D962BD-363D-4A22-9DB1-53136CE8EBF4}</ProjectGuid>
+    <ProjectGuid>{BDF886A1-9AFC-4A30-ABAB-98595127795C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcTemplate.Services.Web.Tests</RootNamespace>
-    <AssemblyName>MvcTemplate.Services.Web.Tests</AssemblyName>
+    <RootNamespace>NurseCallMvc.Services.Web.Tests</RootNamespace>
+    <AssemblyName>NurseCallMvc.Services.Web.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -51,12 +51,6 @@
   <ItemGroup>
     <Compile Include="IdentifierProviderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Services\MvcTemplate.Services.Web\MvcTemplate.Services.Web.csproj">
-      <Project>{deab17a2-58c1-448c-8a66-d49c3af7fc6c}</Project>
-      <Name>MvcTemplate.Services.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

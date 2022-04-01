@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Common
+namespace NurseCallMvc.Common
 {
     public class GlobalConstants
     {

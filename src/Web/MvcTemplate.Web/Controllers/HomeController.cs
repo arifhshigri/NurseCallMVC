@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web.Controllers
+namespace NurseCallMvc.Web.Controllers
 {
     using System.Web.Mvc;
 

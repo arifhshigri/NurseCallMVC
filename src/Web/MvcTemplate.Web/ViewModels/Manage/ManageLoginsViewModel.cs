@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web.ViewModels.Manage
+namespace NurseCallMvc.Web.ViewModels.Manage
 {
     using System.Collections.Generic;
 

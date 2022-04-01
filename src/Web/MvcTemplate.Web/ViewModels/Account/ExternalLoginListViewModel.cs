@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web.ViewModels.Account
+namespace NurseCallMvc.Web.ViewModels.Account
 {
     public class ExternalLoginListViewModel
     {

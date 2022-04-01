@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     using System;
 
@@ -8,8 +8,8 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security.DataProtection;
 
-    using MvcTemplate.Data;
-    using MvcTemplate.Data.Models;
+    using NurseCallMvc.Data;
+    using NurseCallMvc.Data.Models;
 
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
     public class ApplicationUserManager : UserManager<ApplicationUser>

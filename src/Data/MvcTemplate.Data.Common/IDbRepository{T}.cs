@@ -1,8 +1,8 @@
-﻿namespace MvcTemplate.Data.Common
+namespace NurseCallMvc.Data.Common
 {
     using System.Linq;
 
-    using MvcTemplate.Data.Common.Models;
+    using NurseCallMvc.Data.Common.Models;
 
     public interface IDbRepository<T>
         where T : class, IAuditInfo, IDeletableEntity

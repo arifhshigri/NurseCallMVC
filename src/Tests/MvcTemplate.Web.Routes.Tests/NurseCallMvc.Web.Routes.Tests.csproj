@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3A300EF-D136-4334-9211-466B9E699339}</ProjectGuid>
+    <ProjectGuid>{065F5788-3527-461D-B4D7-5544DB4EED51}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcTemplate.Web.Routes.Tests</RootNamespace>
-    <AssemblyName>MvcTemplate.Web.Routes.Tests</AssemblyName>
+    <RootNamespace>NurseCallMvc.Web.Routes.Tests</RootNamespace>
+    <AssemblyName>NurseCallMvc.Web.Routes.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -94,12 +94,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Web\MvcTemplate.Web\MvcTemplate.Web.csproj">
-      <Project>{67cc40ff-4933-4f83-810e-357e6bc8b973}</Project>
-      <Name>MvcTemplate.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

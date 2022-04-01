@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Services.Web.Tests
+namespace NurseCallMvc.Services.Web.Tests
 {
     using NUnit.Framework;
 

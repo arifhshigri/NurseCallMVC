@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Data
+namespace NurseCallMvc.Data
 {
     using System;
     using System.Data.Entity;
@@ -6,8 +6,8 @@
 
     using Microsoft.AspNet.Identity.EntityFramework;
 
-    using MvcTemplate.Data.Common.Models;
-    using MvcTemplate.Data.Models;
+    using NurseCallMvc.Data.Common.Models;
+    using NurseCallMvc.Data.Models;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

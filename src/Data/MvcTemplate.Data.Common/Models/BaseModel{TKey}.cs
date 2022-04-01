@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Data.Common.Models
+namespace NurseCallMvc.Data.Common.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;

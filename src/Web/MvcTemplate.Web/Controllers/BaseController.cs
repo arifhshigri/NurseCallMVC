@@ -1,8 +1,8 @@
-﻿namespace MvcTemplate.Web.Controllers
+namespace NurseCallMvc.Web.Controllers
 {
     using System.Web.Mvc;
 
-    using MvcTemplate.Services.Web;
+    using NurseCallMvc.Services.Web;
 
     public abstract class BaseController : Controller
     {

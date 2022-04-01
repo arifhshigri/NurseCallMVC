@@ -1,10 +1,10 @@
-﻿using Microsoft.Owin;
+using Microsoft.Owin;
 
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(MvcTemplate.Web.Startup))]
+[assembly: OwinStartupAttribute(typeof(NurseCallMvc.Web.Startup))]
 
-namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     public partial class Startup
     {

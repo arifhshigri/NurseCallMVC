@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C55353F-CB74-4E8E-B272-42DA1C9C2194}</ProjectGuid>
+    <ProjectGuid>{6F821078-4866-4ABE-91F5-6610B794B313}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcTemplate.Web.Controllers.Tests</RootNamespace>
-    <AssemblyName>MvcTemplate.Web.Controllers.Tests</AssemblyName>
+    <RootNamespace>NurseCallMvc.Web.Controllers.Tests</RootNamespace>
+    <AssemblyName>NurseCallMvc.Web.Controllers.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -99,29 +99,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Data\MvcTemplate.Data.Common\MvcTemplate.Data.Common.csproj">
+    <ProjectReference Include="..\..\Data\MvcTemplate.Data.Common\NurseCallMvc.Data.Common.csproj">
       <Project>{edfe3c57-ef5b-4636-9ecc-d0baca6b6379}</Project>
-      <Name>MvcTemplate.Data.Common</Name>
+      <Name>NurseCallMvc.Data.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Data\MvcTemplate.Data.Models\MvcTemplate.Data.Models.csproj">
+    <ProjectReference Include="..\..\Data\MvcTemplate.Data.Models\NurseCallMvc.Data.Models.csproj">
       <Project>{048df115-fad9-4bd4-9ba0-d99dfd32a2b2}</Project>
-      <Name>MvcTemplate.Data.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Services\MvcTemplate.Services.Data\MvcTemplate.Services.Data.csproj">
-      <Project>{90fe4c4d-122a-406d-8a40-79c561fb8184}</Project>
-      <Name>MvcTemplate.Services.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Services\MvcTemplate.Services.Web\MvcTemplate.Services.Web.csproj">
-      <Project>{deab17a2-58c1-448c-8a66-d49c3af7fc6c}</Project>
-      <Name>MvcTemplate.Services.Web</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Web\MvcTemplate.Web.Infrastructure\MvcTemplate.Web.Infrastructure.csproj">
-      <Project>{6813dc53-5eee-4507-8604-5301ee51a0d3}</Project>
-      <Name>MvcTemplate.Web.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Web\MvcTemplate.Web\MvcTemplate.Web.csproj">
-      <Project>{67cc40ff-4933-4f83-810e-357e6bc8b973}</Project>
-      <Name>MvcTemplate.Web</Name>
+      <Name>NurseCallMvc.Data.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

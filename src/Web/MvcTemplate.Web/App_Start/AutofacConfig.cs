@@ -1,4 +1,4 @@
-﻿namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     using System.Data.Entity;
     using System.Reflection;
@@ -12,11 +12,11 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
 
-    using MvcTemplate.Data;
-    using MvcTemplate.Data.Common;
-    using MvcTemplate.Data.Models;
-    using MvcTemplate.Services.Web;
-    using MvcTemplate.Web.Controllers;
+    using NurseCallMvc.Data;
+    using NurseCallMvc.Data.Common;
+    using NurseCallMvc.Data.Models;
+    using NurseCallMvc.Services.Web;
+    using NurseCallMvc.Web.Controllers;
 
     public static class AutofacConfig
     {

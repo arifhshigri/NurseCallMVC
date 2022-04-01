@@ -1,15 +1,15 @@
-﻿namespace MvcTemplate.Data.Migrations
+namespace NurseCallMvc.Data.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    public sealed class Configuration : DbMigrationsConfiguration<MvcTemplate.Data.ApplicationDbContext>
+    public sealed class Configuration : DbMigrationsConfiguration<NurseCallMvc.Data.ApplicationDbContext>
     {
         public Configuration()
         {
             this.AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(MvcTemplate.Data.ApplicationDbContext context)
+        protected override void Seed(NurseCallMvc.Data.ApplicationDbContext context)
         {
         }
     }

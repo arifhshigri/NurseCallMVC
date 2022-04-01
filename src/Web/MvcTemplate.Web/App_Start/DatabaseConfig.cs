@@ -1,8 +1,8 @@
-﻿namespace MvcTemplate.Web
+namespace NurseCallMvc.Web
 {
     using System.Data.Entity;
-    using MvcTemplate.Data;
-    using MvcTemplate.Data.Migrations;
+    using NurseCallMvc.Data;
+    using NurseCallMvc.Data.Migrations;
 
     public static class DatabaseConfig
     {
