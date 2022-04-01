@@ -30,9 +30,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurseCallMvc.Web", "Web\Mvc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurseCallMvc.Web.Infrastructure", "Web\MvcTemplate.Web.Infrastructure\NurseCallMvc.Web.Infrastructure.csproj", "{6813DC53-5EEE-4507-8604-5301EE51A0D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurseCallMvc.Common", "MvcTemplate.Common\NurseCallMvc.Common.csproj", "{701F322F-AA01-4DDC-90B6-6935981C1E73}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcTemplate.Common", "MvcTemplate.Common", "{E120D54E-E55D-4C28-9898-7B019467537B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NurseCallMvc.Common", "NurseCallMvc.Common\NurseCallMvc.Common.csproj", "{701F322F-AA01-4DDC-90B6-6935981C1E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

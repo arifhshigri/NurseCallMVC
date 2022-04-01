@@ -1,4 +1,4 @@
-namespace NurseCallMvc.Web
+namespace NurseCallMvc.Web.Global
 {
     using System.Reflection;
     using System.Web;
@@ -9,8 +9,7 @@ namespace NurseCallMvc.Web
     using NurseCallMvc.Common.Mapping;
     using NurseCallMvc.Web.ViewModels.Account;
 
-
-    public class MvcApplication : HttpApplication
+    public class NurseCallApp : HttpApplication
     {
         protected void Application_Start()
         {

@@ -2,7 +2,6 @@ namespace NurseCallMvc.Web
 {
     using System.Data.Entity;
     using NurseCallMvc.Data;
-    using NurseCallMvc.Data.Migrations;
 
     public static class DatabaseConfig
     {

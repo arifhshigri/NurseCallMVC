@@ -17,6 +17,7 @@ namespace NurseCallMvc.Web
     using NurseCallMvc.Data.Models;
     using NurseCallMvc.Services.Web;
     using NurseCallMvc.Web.Controllers;
+    using NurseCallMvc.Web.Global;
 
     public static class AutofacConfig
     {
@@ -25,7 +26,7 @@ namespace NurseCallMvc.Web
             var builder = new ContainerBuilder();
 
             // Register your MVC controllers.
-            builder.RegisterControllers(typeof(MvcApplication).Assembly);
+            builder.RegisterControllers(typeof(NurseCallApp).Assembly);
 
             // OPTIONAL: Register model binders that require DI.
             builder.RegisterModelBinders(Assembly.GetExecutingAssembly());
