@@ -8,5 +8,9 @@ namespace NurseCallMvc.Web.Controllers
         {
             return this.View();
         }
+        public ActionResult Chat()
+        {
+            return View();
+        }
     }
 }
