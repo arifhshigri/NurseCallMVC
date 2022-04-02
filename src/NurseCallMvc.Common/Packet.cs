@@ -8,7 +8,7 @@
     public class Packet
     {
         #region Messge Types (Static)
-        public static Uint Send = BitConverter.ToInt32(Encoding.ASCII.GetBytes("SEND"), 0);
+        public static int Send = BitConverter.ToInt32(Encoding.ASCII.GetBytes("SEND"), 0);
         #endregion
 
         // The Fields for the packet
@@ -92,11 +92,11 @@
 
     public class Message
     {
-        public string? callType;
-        public string? roomNumber;
+        public string callType;
+        public string roomNumber;
         public bool isRoom;
 
-        public Message(string? callType, string? roomNumber, bool isRoom)
+        public Message(string callType, string roomNumber, bool isRoom)
         {
             this.callType = callType;
             this.roomNumber = roomNumber;
